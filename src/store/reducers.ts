@@ -1,7 +1,8 @@
+import { authUser, questions, users } from './reducers/index';
+
 /**
  * Combine all reducers in this file and export the combined reducers.
  */
-
 import { combineReducers } from '@reduxjs/toolkit';
 
 import { InjectedReducersType } from 'utils/types/injector-typings';
@@ -15,6 +16,9 @@ export function createReducer(injectedReducers: InjectedReducersType = {}) {
     return state => state;
   } else {
     return combineReducers({
+      authUser,
+      questions,
+      users,
       ...injectedReducers,
     });
   }
