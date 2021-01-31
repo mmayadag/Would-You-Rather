@@ -1,6 +1,20 @@
 {
   "name": "would-you-rather",
-  "version": "0.1.0",
+  "description": "Would you rather , is a pick your side app.",
+  "keywords": [
+    "react",
+    "react-js",
+    "react-router",
+    "rest-api",
+    "redux",
+    "redux-thunk",
+    "redux-saga",
+    "typescript"
+  ],
+  "version": "0.1.1",
+  "repository": "https://github.com/mmayadag/Would-You-Rather.git",
+  "author": "Murat Mayadağ <murat-2@hotmail.com>",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "1.4.0",
