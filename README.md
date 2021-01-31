@@ -1,44 +1,37 @@
-# Would you rather
+# Would You Rather
 
-This is a react project.
+Would You Rather is a fully responsive and mobile-ready polling game that presents the user with a series of questions.
 
-## Install `node v12.16.3` & `yarn` need to run project without errors.
+It's built with React, Redux, React Router, & Redux Thunk. Typescript tests & styled component
 
-<br />
+## Installation
 
-<div align="center">
-  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Abuild">
-    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/build/badge.svg" alt="Build Status" />
-  </a>
-  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Atests">
-    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/test/badge.svg" alt="Tests Status" />
-  </a>
-  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%release">
-    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/release/badge.svg" alt="Release Status" />
-  </a>
-</div>
+Install `node v12.16.3` & `yarn` need to run project without errors.
+Clone the repository, change directories, and use NPM to install the dependencies.
 
-<div align="center">
-  <a href="https://coveralls.io/github/react-boilerplate/react-boilerplate-cra-template">
-    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate-cra-template/badge.svg?branch=master" alt="Coverage" />
-  </a>
-  <a href="https://opencollective.com/react-boilerplate">
-    <img src="https://opencollective.com/react-boilerplate/backers/badge.svg" alt="Backers" />
-  </a>
-  <a href="https://opencollective.com/react-boilerplate/">
-    <img src="https://opencollective.com/react-boilerplate/sponsors/badge.svg" alt="Sponsors" />
-  </a>
-</div>
+```bash
+$ git clone https://github.com/mmayadag/Would-You-Rather.git
+$ cd Would-You-Rather
+$ yarn
+```
 
-## <br />
+## Usage
+
+The project can be run with
+
+- `yarn start`
+
+The project can be viewed in the browser at
+
+- [http://localhost:3000](http://localhost:3000)
+
+#
+
+##
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `yarn`
-
-install packages with yarn command.
 
 ### `yarn start`
 
