@@ -1,22 +1,18 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { NavBar } from '../NavBar';
-import HomeContent from './HomeContent';
+import Content from './Content';
 import { PageWrapper } from 'app/components/PageWrapper';
 
-export function HomePage() {
+export function LeaderboardPage() {
   return (
     <>
       <Helmet>
-        <title>Home Page</title>
-        <meta
-          name="description"
-          content="A React Boilerplate application homepage"
-        />
+        <title>Leader Board</title>
       </Helmet>
       <NavBar />
       <PageWrapper>
-        <HomeContent />
+        <Content />
       </PageWrapper>
     </>
   );

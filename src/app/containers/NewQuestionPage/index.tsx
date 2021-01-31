@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { NavBar } from '../NavBar';
-import HomeContent from './HomeContent';
+import NewQuestionForm from './NewQuestionForm';
 import { PageWrapper } from 'app/components/PageWrapper';
 
-export function HomePage() {
+export function NewQuestionPage() {
   return (
     <>
       <Helmet>
@@ -16,7 +16,7 @@ export function HomePage() {
       </Helmet>
       <NavBar />
       <PageWrapper>
-        <HomeContent />
+        <NewQuestionForm />
       </PageWrapper>
     </>
   );

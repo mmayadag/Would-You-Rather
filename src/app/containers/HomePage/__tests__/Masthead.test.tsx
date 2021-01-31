@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Masthead } from '../Masthead';
+import { Masthead } from '../HomeContent';
 import { createRenderer } from 'react-test-renderer/shallow';
 
 const shallowRenderer = createRenderer();

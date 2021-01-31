@@ -4,6 +4,7 @@ import { Logo } from './Logo';
 import { StyleConstants } from 'styles/StyleConstants';
 import { Nav } from './Nav';
 import { PageWrapper } from '../../components/PageWrapper';
+import ProfileBar from '../ProfileBar';
 
 export function NavBar() {
   return (
@@ -11,6 +12,7 @@ export function NavBar() {
       <PageWrapper>
         <Logo />
         <Nav />
+        <ProfileBar />
       </PageWrapper>
     </Wrapper>
   );
@@ -39,5 +41,6 @@ const Wrapper = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
 `;

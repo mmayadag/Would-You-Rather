@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { DefaultTheme } from 'styled-components';
 import { themes } from 'styles/theme/themes';
-import { P } from '../P';
+import { P } from 'app/components/P';
 
 const renderWithTheme = (theme: DefaultTheme) => render(<P theme={theme} />);
 

@@ -7,9 +7,9 @@ import { lazyLoad } from 'utils/loadable';
 import { LoadingIndicator } from 'app/components/LoadingIndicator';
 import { LoadingWrapper } from 'app/components/LoadingWrapper';
 
-export const HomePage = lazyLoad(
+export const LoginPage = lazyLoad(
   () => import('./index'),
-  module => module.HomePage,
+  module => module.LoginPage,
   {
     fallback: (
       <LoadingWrapper>

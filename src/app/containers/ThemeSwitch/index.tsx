@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { saveTheme } from 'styles/theme/utils';
 import { ThemeKeyType } from 'styles/theme/types';
 
-export function ThemeSwitch() {
+export function ThemeSwitch({ isSystemAllowed = false }) {
   const theme = useSelector(selectThemeKey);
   const dispatch = useDispatch();
 
@@ -21,15 +21,18 @@ export function ThemeSwitch() {
     <Wrapper>
       <FormLabel>Select Theme</FormLabel>
       <Themes>
-        <Radio
-          id="system"
-          label="System theme"
-          className="radio"
-          name="theme"
-          onChange={handleThemeChange}
-          value="system"
-          isSelected={theme === 'system'}
-        />
+        {isSystemAllowed && (
+          <Radio
+            id="system"
+            label="System theme"
+            className="radio"
+            name="theme"
+            onChange={handleThemeChange}
+            value="system"
+            isSelected={theme === 'system'}
+          />
+        )}
+
         <Radio
           id="light"
           label="Light"

@@ -5,11 +5,19 @@
 import * as React from 'react';
 import { lazyLoad } from 'utils/loadable';
 import { LoadingIndicator } from 'app/components/LoadingIndicator';
-import { LoadingWrapper } from 'app/components/LoadingWrapper';
+import styled from 'styled-components/macro';
 
-export const HomePage = lazyLoad(
+const LoadingWrapper = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const NewQuestionPage = lazyLoad(
   () => import('./index'),
-  module => module.HomePage,
+  module => module.NewQuestionPage,
   {
     fallback: (
       <LoadingWrapper>

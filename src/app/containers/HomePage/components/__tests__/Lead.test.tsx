@@ -2,7 +2,7 @@ import * as React from 'react';
 import { render } from '@testing-library/react';
 import { DefaultTheme } from 'styled-components';
 import { themes } from 'styles/theme/themes';
-import { Lead } from '../Lead';
+import { Lead } from 'app/components/Lead';
 
 const renderWithTheme = (theme: DefaultTheme) => render(<Lead theme={theme} />);
 
