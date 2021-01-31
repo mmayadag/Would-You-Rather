@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-import { Wrapper } from 'app/components/Wrapper';
-import { Container } from 'app/components/Container';
 import { connect } from 'react-redux';
 import { Person } from './Person';
 

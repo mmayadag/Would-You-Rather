@@ -3,7 +3,6 @@ import { useHistory } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Button } from '../Button';
 import styled from 'styled-components/macro';
-import { relative } from 'path';
 
 const YourVoteLabel = () => (
   <StyledYourVoteLabel>

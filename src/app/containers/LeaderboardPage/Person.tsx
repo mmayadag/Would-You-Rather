@@ -45,7 +45,7 @@ const StyledBodyWrapper = styled(BodyWrapper)`
   align-self: center;
 `;
 const Person = ({ data }: any) => {
-  const { answerCount, avatarURL, id, name, questionCount, total } = data;
+  const { answerCount, avatarURL, name, questionCount, total } = data;
   return (
     <StyledQuestionWrapper>
       <ContentWrapper>

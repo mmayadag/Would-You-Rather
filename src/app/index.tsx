@@ -6,7 +6,7 @@
  * contain code that should be seen on all pages. (e.g. navigation bar)
  */
 
-import * as React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
@@ -28,12 +28,12 @@ import Footer from './components/Footer';
 function App({ authUser, handleInitialData }: any) {
   const { i18n } = useTranslation();
 
-  React.useEffect(() => {
+  useEffect(() => {
     handleInitialData();
+    // eslint-disable-next-line
   }, []);
 
   //const state = useSelector(state => state);
-  console.log({ authUser });
   return (
     <BrowserRouter>
       <Helmet
